@@ -7,7 +7,7 @@ body{
   margin: 0;
 }
 
-.heart{
+.heart1{
  background-color: red;
  width: 100px;
  height: 100px;
@@ -16,7 +16,7 @@ body{
  left: 50%;
  transform: rotate(-45deg);}
 
-.heart:before{
+.heart1:before{
   content: '';
   width: 100px;
   height: 100px;
@@ -27,7 +27,7 @@ body{
   left: 0;
 }
 
-.heart:after{
+.heart1:after{
   z-index: -1;
   content: '';
   width: 100px;
@@ -38,3 +38,154 @@ body{
   top: 0px;
   left: 50px;
 }
+body{
+  background: #66CDAA;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 400px;
+  margin: 0;
+}
+
+.heart2{
+ background-color: red;
+ width: 100px;
+ height: 100px;
+ position: relative;
+ top: 180px;
+ left: 50%;
+ transform: rotate(45deg);}
+
+.heart2:before{
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+
+.heart2:after{
+  z-index: -1;
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+}
+body{
+  background: #66CDAA;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 400px;
+  margin: 0;
+}
+
+.heart3{
+ background-color: red;
+ width: 100px;
+ height: 100px;
+ position: relative;
+ top: 180px;
+ left: 30%;
+ transform: rotate(590deg);}
+
+.heart3:before{
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+
+.heart3:after{
+  z-index: -1;
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+}
+body{
+  background: #66CDAA;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 400px;
+  margin: 0;
+  animation-name: dancing;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes dancing{
+  0%{
+    left:1001px;
+    background:#183;
+  }
+  25%{
+    background:#388;
+  }
+  50%{
+    background:#b11;
+    transform: scale(2.25) rotate(-350deg);
+  }
+  100%{
+    left:300px;
+    background:#f95;
+  }
+
+}
+
+.heart4{
+ background-color: red;
+ width: 100px;
+ height: 100px;
+ position: relative;
+ top: 250px;
+ left: 30%;
+ transform: rotate(495deg);}
+
+.heart4:before{
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+
+.heart4:after{
+  z-index: -1;
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+}
+  .rectangle{
+  width: 10px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: 450px;
+  left: 800px;
+    
+  }
