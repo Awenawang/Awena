@@ -1,131 +1,11 @@
 body{
-  background: #66CDAA;
+  background: #02b9;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  height: 400px;
+  height:500px;
   margin: 0;
-}
-
-.heart1{
- background-color: red;
- width: 100px;
- height: 100px;
- position: relative;
- top: 100px;
- left: 50%;
- transform: rotate(-45deg);}
-
-.heart1:before{
-  content: '';
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: red;
-  position: absolute;
-  top: -50px;
-  left: 0;
-}
-
-.heart1:after{
-  z-index: -1;
-  content: '';
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: red;
-  position: absolute;
-  top: 0px;
-  left: 50px;
-}
-body{
-  background: #66CDAA;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 400px;
-  margin: 0;
-}
-
-.heart2{
- background-color: red;
- width: 100px;
- height: 100px;
- position: relative;
- top: 180px;
- left: 50%;
- transform: rotate(45deg);}
-
-.heart2:before{
-  content: '';
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: red;
-  position: absolute;
-  top: -50px;
-  left: 0;
-}
-
-.heart2:after{
-  z-index: -1;
-  content: '';
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: red;
-  position: absolute;
-  top: 0px;
-  left: 50px;
-}
-body{
-  background: #66CDAA;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 400px;
-  margin: 0;
-}
-
-.heart3{
- background-color: red;
- width: 100px;
- height: 100px;
- position: relative;
- top: 180px;
- left: 30%;
- transform: rotate(590deg);}
-
-.heart3:before{
-  content: '';
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: red;
-  position: absolute;
-  top: -50px;
-  left: 0;
-}
-
-.heart3:after{
-  z-index: -1;
-  content: '';
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: red;
-  position: absolute;
-  top: 0px;
-  left: 50px;
-}
-body{
-  background: #66CDAA;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 400px;
-  margin: 0;
-  animation-name: dancing;
+   animation-name: dancing;
   animation-duration:2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -147,45 +27,68 @@ body{
     background:#f95;
   }
 
-}
-
-.heart4{
- background-color: red;
- width: 100px;
- height: 100px;
- position: relative;
- top: 250px;
- left: 30%;
- transform: rotate(495deg);}
-
-.heart4:before{
-  content: '';
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: red;
-  position: absolute;
-  top: -50px;
-  left: 0;
-}
-
-.heart4:after{
-  z-index: -1;
-  content: '';
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: red;
-  position: absolute;
-  top: 0px;
-  left: 50px;
-}
-  .rectangle{
-  width: 10px;
-  height: 200px;
-  background-color: red;
-  position: absolute;
-  top: 450px;
-  left: 800px;
-    
   }
+.circle1:after{
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: pink;
+  position: absolute;
+  top: 60px;
+  left: 70;
+}
+.circle2:before{
+  content: '';
+  width: 150px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: pink;
+  position: absolute;
+  top: 120px;
+  left: 505px;
+  transform: rotate(-45deg);
+}
+.circle3:after{
+  content: '';
+  width: 150px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: pink;
+  position: absolute;
+  top: 185px;
+  left: 480px;
+  transform: rotate(45deg);
+}
+.circle4:after{
+  content: '';
+  width: 150px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: pink;
+  position: absolute;
+  top: 120px;
+  left: 400px;
+  transform: rotate(45deg);
+}
+.circle5:after{
+  content: '';
+  width: 150px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: pink;
+  position: absolute;
+  top: 180px;
+  left: 418px;
+  transform: rotate(135deg);
+}
+.circle6:after{
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: brown;
+  position: absolute;
+  top: 130px;
+  left: 70;
+}
